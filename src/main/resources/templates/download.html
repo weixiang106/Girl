@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>下载八乐透</title>
+    <style>
+
+        /*通用*/
+        body {
+            margin:0;
+            padding:0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        @font-face {
+            font-family: "SourceHanSansCN-Regular";
+            font-weight:normal;
+            font-style:normal;
+        }
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,p,blockquote,th,td{margin:0; padding:0;}
+        header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+        ol,li,ul,dl,dt,dd{list-style:none;}
+        a{text-decoration:none;color:#333; }
+        table {border-collapse:collapse;border-spacing:0;}
+        header {
+            width: 7.5rem;
+            height: 1.18rem;
+            box-shadow: 2px 4px 6px #ebd7c6;
+            overflow: hidden;
+        }
+        .blttitle {
+            width: 2rem;
+            height: .8rem;
+            margin-left: .4rem;
+        }
+        .ios_min,.android_min{
+            width: 2.14rem;
+            height: .8rem;
+        }
+        section {
+            width: 7.5rem;
+        }
+        .section-top img {
+            display: block;
+            margin: .24rem auto 0;
+            width: 7.22rem;
+            height: 2rem;
+        }
+        .section-middle{
+            width: 4.5rem;
+            margin: .2rem auto 0;
+        }
+        .section-middle img{
+            display: block;
+            margin: 0 auto;
+            width: 1.62rem;
+            height: 1.62rem;
+        }
+        .section-middle h6{
+            text-align: center;
+            margin-top: .3rem;
+            margin-bottom: .1rem;
+        }
+        .section-middle span,.section-middle p{
+            font-size: .36rem;
+            line-height: .6rem;
+        }
+        .start {
+            height: .6rem;
+            overflow: hidden;
+        }
+        .start span {
+            display: block;
+            float: left;
+        }
+        .start img{
+            display: block;
+            float: left;
+            height: .6rem;
+        }
+        .section-bottom{
+            width: 6.8rem;
+            margin: .3rem auto 0;
+        }
+        .ios_max,.android_max{
+            display: inline-block;
+            width: 3.2rem;
+            height: 1.3rem;
+        }
+        .wap {
+            display: block;
+            width: 6.8rem;
+            height: 1.04rem;
+        }
+        footer{
+            width: 7.5rem;
+        }
+        footer .bottom-img{
+            display: block;
+            margin: .3rem auto 0;
+            width: 7.2rem;
+            height: 2.8rem;
+        }
+        footer .bottom-img img{
+            display: block;
+            width: 7.2rem;
+            height: 2.8rem;
+        }
+        footer  p{
+            font-size: .26rem;
+            text-align: center;
+            line-height: .85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="">
+                <img class="blttitle" src="../static/images/blttitle.png" alt="">
+            </a>
+            <a href="">
+                <img class="ios_min" src="../static/images/ios_min.png" alt="">
+            </a>
+            <a href="">
+                <img class="android_min" src="../static/images/android_min.png" alt="">
+            </a>  
+        </header>
+        <section>
+            <div class="section-top">
+                <img src="../static/images/central.png" alt="">
+            </div>
+            <div class="section-middle">
+                <img src="../static/images/blticon.png" alt="">
+                <h6>八乐透彩票</h6>
+                <div class="start">
+                    <span>评级：</span>
+                    <img src="" alt="">
+                </div>
+                <p>更新日期：2018年08月10日</p>
+                <p>版本：IOS1.0.0/An1.0.0</p>
+                <p>大小：3.9MB</p>
+            </div>
+            <div class="section-bottom">
+                <a href="">
+                    <img class="ios_max" src="../static/images/ios_max.png" alt="">
+                </a>
+                <a href="">
+                    <img class="android_max" src="../static/images/android_max.png">
+                </a>
+                <a href="">
+                    <img class="wap" src="../static/images/wap.png" alt="">
+                </a> 
+            </div>
+        </section>
+        <footer>
+            <a class="bottom-img">
+                <img src="../static/images/bottom.png" alt="">
+            </a>
+            <p>Copyright&copy;2012-2018 八乐透彩票 版权所有</p>
+        </footer>
+    </div>
+</body>
+<script>
+(function (doc, win) {
+    var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if(clientWidth>=750){
+                docEl.style.fontSize = '100px';
+            }else{
+                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            }
+        };
+
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+
+})(document, window);
+</script>
+</html>
